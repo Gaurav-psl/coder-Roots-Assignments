@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height:200vh;
+}
+
+#left-section{
+    height:100%;
+    width:70%;
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    float:left;
+}
+#name{
+    box-sizing:border-box;
+    background-color:#313232;
+    height:13.6%;
+    width:100%;
+    display:flex;
+    padding-left:100px;
+    color:#ebebed;
+    font-size:70px;
+    padding-top:60px;
+}
+#profile{
+    box-sizing:border-box;
+    height:4%;
+    width:100%;
+    background-color:#01798c;
+    color:#ebebed;
+    font-size:30px;
+    padding-left:100px;
+    padding-top:15px;   
+}
+#profile-definition{
+    box-sizing:border-box;
+    height:13.5%;
+    padding-top:50px;
+    padding-left:100px;
+    font-size:22px;
+    padding-right:200px;
+}
+#experience{
+    box-sizing:border-box;
+    height:4%;
+    width:100%;
+    background-color:#01798c;
+    color:#ebebed;
+    font-size:30px;
+    padding-left:100px;
+    padding-top:15px;       
+}
+
+.experience-details{
+    height:15%;
+    width:85%;
+    margin-top:25px;
+    margin-left:100px;
+    
+}
+
+.experience-headings{  
+    color:black;
+    font-weight:400;
+    margin:2px;
+    font-size:30px
+}
+.experience-timeline{
+    color:#01798c;
+    font-size:18px;
+    margin:2px;
+}
+#right-section{
+    height:100%;
+    width:30%;
+    /* display:flex;
+    flex-direction:column;
+    flex:1; */
+    float:left;
+    background-color:#e6e6e6;
+}
+#professions{
+    box-sizing:border-box;  
+    width:100%;
+    height: 13.6%;
+    color:#ebebed;
+    font-size:30px;
+    background-color:#01798c;
+    padding-left:100px;
+    padding-top:40px;
+    font-weight:100;
+}
+.white-section{
+    color:#ebebed;
+    font-size:40px;
+}
+
+#contact{
+    box-sizing:border-box;
+    padding-left:80px;
+    height:4%;
+    width:100%;
+    background-color:#313232;
+    color:#ebebed;
+    font-size:30px;
+    padding-top:15px;
+    padding-right:0;   
+}
+#contact-details{
+    height:13.5%;
+    box-sizing:border-box;
+    width:100%;
+    padding-left:40px;
+    font-size:40;
+    background-color:#e6e6e6;
+    color:#01798c;
+    font-size:25px;
+    padding-top:30px;
+    line-height:1.5;
+}
+#skills{
+    box-sizing:border-box;
+    padding-left:80px;
+    height:4%;
+    width:100%;
+    background-color:#313232;
+    color:#ebebed;
+    font-size:30px;
+    padding-top:15px;  
+}
+#skills-details{
+    height:13.5%;
+    box-sizing:border-box;
+    width:100%;
+    padding-left:30px;
+    font-size:40;
+    background-color:#e6e6e6;
+    color:#01798c;
+    font-size:25px;
+    padding-top:50px;
+    line-height:1.5;
+    margin-bottom:40px;    
+}
+#skills-detail-list{
+    font-size:40;
+    background-color:#e6e6e6;
+    color:#01798c;
+}
+
+.anchor-tag-contact-section{
+   background-color:#ebebed;
+}
+#education{
+    box-sizing:border-box;
+    padding-left:80px;
+    height:4%;
+    width:100%;
+    background-color:#313232;
+    color:#ebebed;  
+    font-size:30px;
+    padding-top:15px; 
+}
+.education-details{
+    height:13.5%;
+    box-sizing:border-box;
+    width:100%;
+    padding-left:30px;
+    font-size:30px;
+    background-color:#e6e6e6;
+    color:#01798c;
+    font-size:25px;
+    padding-top:30px;
+    line-height:1.5;     
+}
+.education-heading{
+    font-size:30px;
+}
+.education-content{
+    font-size:20px;
+    color:black;
+}
+
+
